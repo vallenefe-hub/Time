@@ -17,13 +17,17 @@ body {
     font-family: poppins-light;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: poppins-bold;
 }
 
-.hero{
+.hero {
     min-height: 100vh;
-    background-image: var(--gradient), url(../images/banner0.jpg );
     background-repeat: no-repeat;
     background-size: cover;
     opacity: .3;
@@ -33,23 +37,23 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes myhero {
     to {
         opacity: 1;
-}
+    }
 }
 
-.hero-title{
+.hero-title {
     text-wrap: balance;
-    color: rgba(104, 160, 155, 0.856);
+    color: jbrgba(40, 34, 73, 0.856);
     -webkit-text-stroke: 2px rgba(255, 255, 255, .67);
     font-size: 10vw;
     line-height: .8;
 }
 
-.hero-text{
-   color: rgba(255, 255, 255, .8);
+.hero-text {
+    color: rgba(255, 255, 255, .8);
     font-weight: 900;
 }
 
-.grid-bg{
+.grid-bg {
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 8px;
     text-align: center;
@@ -64,6 +68,21 @@ h1, h2, h3, h4, h5, h6 {
 .grid {
     min-height: 80px;
     display: grid;
-    grid-template-columns: repeat(9, 1fr) ;
+    grid-template-columns: repeat(9, 1fr);
 
+}
+
+
+.img-grid{
+    width: 90%;
+    height: 80px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    cursor: pointer;
+    transition: .5s;
+
+    &:hover{
+        cursor: pointer;
+        scale: 1.2;
+    }
 }

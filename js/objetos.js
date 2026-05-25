@@ -1,4 +1,4 @@
-const jogadores = [
+export const jogadores = [
   {
     agilidade: 86,
     altura: 1.70,
@@ -451,3 +451,15 @@ const jogadores = [
   }
 ];
 
+
+const banners = [
+  './images/banner0.jpg', 
+  './images/banner1.jpg', 
+  './images/banner2.jpg',
+  './images/banner3.jpg',
+  './images/banner4.jpg',
+  './images/banner5.jpg',
+  './images/banner6.jpg',
+  './images/banner7.jpg',
+  './images/banner8.jpg'
+]

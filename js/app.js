@@ -1,4 +1,4 @@
-import { jogadores } from "./objetos.js";
+import { jogadores, banners} from "./objetos.js";
 
-console.log(jogadores);
-console.log();
+// montando o grid das imagens
+

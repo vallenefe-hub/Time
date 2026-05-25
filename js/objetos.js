@@ -452,7 +452,7 @@ export const jogadores = [
 ];
 
 
-const banners = [
+export const banners = [
   './images/banner0.jpg', 
   './images/banner1.jpg', 
   './images/banner2.jpg',
@@ -462,4 +462,4 @@ const banners = [
   './images/banner6.jpg',
   './images/banner7.jpg',
   './images/banner8.jpg'
-]
+];
